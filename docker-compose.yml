@@ -1,0 +1,9 @@
+jenkins:
+  image: jsurf/rpi-raspbian:latest
+  restart: always
+  expose: 
+    - "8080" 
+  environment: 
+    JENKINS_VERSION: 2.64
+    JENKINS_HOME: /var/jenkins_home
+    JENKINS_SLAVE_AGENT_PORT: 50000
