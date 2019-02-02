@@ -1,5 +1,5 @@
 FROM jsurf/rpi-raspbian:latest
-MAINTAINER Amauri Rodrigues <ardsjj@gmail.com>
+MAINTAINER Wouter De Schuyter <wouter.de.schuyter@gmail.com>
 
 # Jenkins version
 ENV JENKINS_VERSION 2.64
